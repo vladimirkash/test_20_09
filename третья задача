@@ -1,0 +1,11 @@
+# это третья задача я не придумал как решить второе
+numb = int(input())
+primeNumber = 2
+while numb != 1:
+    if numb % primeNumber == 0:
+        while numb % primeNumber == 0:
+            print(primeNumber)
+            numb = numb // primeNumber
+        primeNumber = primeNumber + 1
+    else:
+        primeNumber = primeNumber + 1
